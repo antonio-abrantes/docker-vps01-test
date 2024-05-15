@@ -1,5 +1,6 @@
 ### Criar a instância a partir da imagem
   `docker build -t tony/dockernode .`
+  `sudo docker run -p 3000:3000 -d tony/dockernode`
 
 ### Usando o Docker Compose
   `docker-compose up`
